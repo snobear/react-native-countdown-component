@@ -230,7 +230,10 @@ CountDown.defaultProps = {
 const styles = StyleSheet.create({
   timeCont: {
     flexDirection: 'row',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
+    position: 'absolute',
+    bottom: 50,
+    left: 20
   },
   timeTxt: {
     color: 'white',
